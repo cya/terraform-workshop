@@ -1,3 +1,3 @@
-project_name = "learned-acolyte-221721"
-path_to_context = "/Users/sergii.marchenko/work/keys/gcp/Iegor-072a850167f3.json"
+project_name = "ardent-oven-235508"
+path_to_context = "/home/ychertkov/ts/ardent-oven-235508-01e464e25601.json"
 

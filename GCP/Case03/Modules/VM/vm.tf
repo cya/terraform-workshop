@@ -69,7 +69,8 @@ resource "null_resource" "startupscript" {
       "go build main.go personHandler.go store.go",
       "echo './main' >> start.sh",
       "chmod 755 start.sh",
-      "./start.sh > /dev/null 2>&1",
+      "./start.sh > /dev/null 2>&1 &",
+      "sleep 2",
       "echo Finished",
     ]
   }

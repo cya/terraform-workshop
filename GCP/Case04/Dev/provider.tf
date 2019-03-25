@@ -11,8 +11,8 @@ provider "vault" {
 
 terraform {
   backend "gcs" {
-    bucket  = "test-tf-state-ie"
+    bucket  = "ychertkov-test"
     prefix  = "terraform/dev"
-    credentials	= "/Users/sergii.marchenko/work/keys/gcp/Iegor-072a850167f3.json"
+    credentials	= "/home/ychertkov/ts/ardent-oven-235508-01e464e25601.json"
   }
 }
